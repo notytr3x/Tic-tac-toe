@@ -24,7 +24,7 @@ export default function Board() {
       if (
         squares[a] !== null &&
         squares[a] === squares[b] &&
-        squares[a] === squares[c]
+        squares[a] === squares[c] 
       ) {
         return squares[a];
         
